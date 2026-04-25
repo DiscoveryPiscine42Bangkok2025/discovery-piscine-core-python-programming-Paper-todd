@@ -3,5 +3,6 @@ m=[]
 for number in n:
     if number >5:
       m.append(number + 2)
+      w = list(set(m))
 print(n)
-print(m)
+print(w)
